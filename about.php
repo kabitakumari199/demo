@@ -15,4 +15,6 @@ define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
-echo "Hello its for testing purpose";
+echo "Hi Manish, How are you!";
+echo "Hi Manish, How are you!";
+
