@@ -1,3 +1,3 @@
 <?php 
-echo "its c file";
+echo "its c file---";
 ?>
