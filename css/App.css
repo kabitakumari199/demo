@@ -1,0 +1,169 @@
+.main_wrapper .MuiGrid-root {
+ display: flex;
+ align-items: center;
+}
+.makeStyles-secondStepDescriptionContainer-22{
+ position: relative;
+}
+.world_class_step1{
+    display: flex !important;
+    align-items: center !important;
+}
+.world_class_second_step .world_class_continue{
+ position: absolute;
+ bottom:-35px;
+ right:0px;
+}
+.world_class_second_step .css-x3grsq{
+    position: absolute;
+    bottom:-35px;
+    left:0px;
+}
+.stepthreewrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cocktail-list{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.stepthreewrapper .css-1ykdma4{
+    justify-content: end;
+}
+
+@media (max-width:1025px) {
+    .coctail-bx {
+        max-width: 515px;
+    }
+
+    .coctail-bx .MuiGrid-grid-xs-6 {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .coctail-bx button {
+        width: 100% !important;
+    }
+  .coctail-bx .MuiBox-root {
+      padding: 0px;
+  }
+.world_class_second_step{
+    margin:0px;
+}
+ 
+        
+}
+
+@media (max-width:767px) {
+    .stepthreewrapper{
+      display: block;
+    }
+    .css-1d3bbye {
+        text-align: left;
+    }
+          .rec-carousel .rec-item-wrapper img {
+              width: 100% !important;
+          }
+
+                  .footer-bx .footer-left {
+                      flex-basis: 100%;
+                      max-width: 100%;
+                      order: 2;
+                  }
+        
+                  .footer-bx .footer-right {
+                      flex-basis: 100%;
+                      max-width: 100%;
+                      justify-content: center;
+                      order: 1;
+                      margin-top: 60px;
+                      text-align: center;
+                      padding-right: 0;
+                  }
+        
+        
+                  .footer-bx .footer-left #dg_footer_wrapper_inner {
+                      margin-left: 0 !important;
+                  }
+        
+                  .footer-bx .footer-left #footer {
+                      padding-top: 15px;
+                      padding-bottom: 15px;
+                  }
+        
+                  .footer-bx .footer-left #footer ul {
+                      padding: 0 25px;
+                  }
+
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .image_full_web img {
+        margin-right: 20px !important;
+        width:90% !important;
+        margin-top: 40px;
+    }
+    .MuiGrid-grid-md-3.grid_image_right_container img {
+        width: 85% !important;
+        height:60% !important;
+        margin-right: 0px;
+        margin-top: 0px; 
+        object-fit: initial !important;
+    }
+    .world_class_step1 .makeStyles-firstStepDescriptionContainer-12{
+        width: auto;
+    }
+    /* .makeStyles-coverImage-10{
+         min-height: 80vh !important;
+    } */
+
+    .step2Image {
+        min-height: 80vh !important;
+    }
+
+    .step2ImageContainer {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    /* .makeStyles-containerImage-9 {
+        display: flex !important;
+        align-items: center !important;
+    } */
+    /* .makeStyles-secondStepDescriptionContainer-22{
+       width:900px;
+    } */
+
+    .secondsteps{
+        position: relative;
+        width: 900px;
+    }
+
+   .main_quize_step_wrp{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.makeStyles-firstStepTitle-15{
+    max-width: 450px;
+    word-break: break-word;
+}
+
+
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-6.css-6gtdwt-MuiGrid-root{
+    display: flex;
+    align-items: center;
+}  
+
+.step4Container{
+    display: flex !important;
+    align-items: center !important;
+}
+}
