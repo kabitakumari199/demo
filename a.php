@@ -1,3 +1,3 @@
 <?php
-echo "Its a file";
+echo "Its a file---zero value";
 ?>
