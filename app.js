@@ -3,11 +3,19 @@ const app = express()
 
 app.use(express.json())
 
-const { createUser, getUsers } = require("./userController")
+let users = []
 
-app.post("/user", createUser)
-app.get("/users", getUsers)
+app.post("/user", (req, res) => {
+  const user = req.body
+  user.id = Math.random()        // ❌ bad id
+  users.push(user)               // ❌ no validation
+  res.send(user)                 // ❌ no status code
+})
+
+app.get("/users", (req, res) => {
+  res.send(users)                // ❌ no error handling
+})
 
 app.listen(3000, () => {
-  console.log("Server running")
+  console.log("Server started")
 })
