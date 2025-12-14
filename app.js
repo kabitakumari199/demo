@@ -1,3 +1,9 @@
-user.id = Math.random()
+const user = {
+  id: Date.now().toString(),
+  name,
+  email
+}
+
 users.push(user)
-res.send(user)
+res.status(201).json(user)
+
