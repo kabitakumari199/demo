@@ -1,4 +1,12 @@
+const express = require('express');
+const app = express();
 const { v4: uuidv4 } = require('uuid');
+
+// Body parser middleware to parse JSON requests
+app.use(express.json());
+
+// In-memory users store (consider using a database in production)
+const users = [];
 
 // Add this to your route handler (e.g., app.post('/users', ...))
 app.post('/users', (req, res) => {
@@ -42,4 +50,10 @@ app.post('/users', (req, res) => {
   
   // Return created user with 201 status
   return res.status(201).json(user);
+});
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
